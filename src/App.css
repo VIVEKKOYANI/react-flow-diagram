@@ -1,0 +1,64 @@
+.dndflow {
+  display: flex;
+  height: 100vh;
+}
+
+aside {
+  width: 200px;
+  padding: 10px;
+  background: #f4f4f4;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 10px;
+  background: #f4f4f4;
+  border-right: 1px solid #ddd;
+}
+
+.dndnode {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  cursor: grab;
+  align-content: center;
+}
+
+.rectangle {
+  width: 150px;
+  height: 100px;
+  margin: 10px;
+  background: blue;
+}
+
+.conditional {
+  margin: 10px;
+  background: orange;
+  width: 150px;
+  height: 100px;
+  clip-path: polygon(50% 18%, 100% 50%, 47% 76%, 0% 50%);
+}
+
+.iteration {
+  margin: 10px;
+  background: green;
+  width: 150px;
+  height: 100px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0 100%);
+  /* background: red; */
+}
+
+.text-updater-node {
+  height: 150px;
+  border: 1px solid #522323;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgb(211, 71, 71);
+}
